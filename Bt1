@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+	int i;
+
+	// Duyệt từ 10 đến 99
+	for (i = 10; i <= 99; i++) {
+		// Kiểm tra nếu i là bội của 7
+		if (i % 7 == 0) {
+			// In ra số i
+			printf("%d ", i);
+		}
+	}
+
+	return 0;
+}
